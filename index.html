@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner VA - No Fuss Part-Time Admin Support</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#f97316',
+                        light: '#f8fafc',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .card-hover {
+                transition: all 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</head>
+<body class="bg-light text-gray-800 font-sans">
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-primary to-blue-700 text-white py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4 text-shadow">Part-Time Virtual Assistant for Small Businesses</h1>
+            <p class="text-[clamp(1.1rem,2vw,1.3rem)] max-w-2xl mb-8 opacity-95">No overpriced agency fees, no complicated contracts. I handle your repetitive admin work so you can focus on growing your shop or creative work.</p>
+            <a href="#contact" class="bg-secondary hover:bg-orange-600 transition-all px-8 py-3 rounded-full font-semibold inline-block">Get Started Today</a>
+        </div>
+    </header>
+
+    <!-- Service Packages Section -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">Simple, Transparent Pricing</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Inbox Management Card -->
+            <div class="bg-white rounded-xl shadow-lg p-7 card-hover">
+                <div class="text-primary text-4xl mb-4">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Inbox Management</h3>
+                <p class="text-gray-600 mb-5">Sort unread emails, reply to standard FAQs, flag only urgent inquiries for you to handle. 5 hours of support per week.</p>
+                <p class="text-3xl font-bold text-primary mb-3">$120 <span class="text-sm font-normal text-gray-500">/ month</span></p>
+            </div>
+
+            <!-- Social Scheduling Card -->
+            <div class="bg-white rounded-xl shadow-lg p-7 card-hover">
+                <div class="text-primary text-4xl mb-4">
+                    <i class="fa fa-calendar-check-o"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Social Media Scheduling</h3>
+                <p class="text-gray-600 mb-5">Schedule 3-5 posts per week across Instagram, TikTok and Facebook using your pre-made photos and captions. 4 hours of support per week.</p>
+                <p class="text-3xl font-bold text-primary mb-3">$100 <span class="text-sm font-normal text-gray-500">/ month</span></p>
+            </div>
+
+            <!-- Order Admin Card -->
+            <div class="bg-white rounded-xl shadow-lg p-7 card-hover">
+                <div class="text-primary text-4xl mb-4">
+                    <i class="fa fa-list-alt"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Order & Customer Admin</h3>
+                <p class="text-gray-600 mb-5">Log new orders, update your shared spreadsheets, send standard confirmation messages, track basic delivery status. 5 hours of support per week.</p>
+                <p class="text-3xl font-bold text-primary mb-3">$130 <span class="text-sm font-normal text-gray-500">/ month</span></p>
+            </div>
+        </div>
+
+        <div class="mt-10 bg-blue-50 border border-primary/20 rounded-xl p-7 text-center">
+            <h3 class="text-xl font-bold mb-3">Full 3-Service Bundle</h3>
+            <p class="text-gray-600 mb-3">Get all 3 admin services for a discounted rate, max 12 hours of support per week</p>
+            <p class="text-3xl font-bold text-primary">$300 <span class="text-sm font-normal text-gray-500">/ month</span></p>
+        </div>
+    </section>
+
+    <!-- No B.S. Promise Section -->
+    <section class="py-14 bg-gray-50 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10">No Hidden Costs, No Scope Creep</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h4 class="text-xl font-semibold mb-3 text-primary"><i class="fa fa-check-circle mr-2"></i> What's included</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>✅ 100% free tools for all tasks, no extra software fees passed to you</li>
+                        <li>✅ Fixed weekly hour cap for all services</li>
+                        <li>✅ Secure delegate inbox access (I never log into your private account)</li>
+                        <li>✅ No long-term locked contracts</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold mb-3 text-red-500"><i class="fa fa-times-circle mr-2"></i> Explicitly NOT included</h4>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>❌ Designing new social media graphics</li>
+                        <li>❌ Processing customer refunds or resolving complex disputes</li>
+                        <li>❌ Writing original social media captions from scratch</li>
+                        <li>❌ Any unagreed extra tasks outside our initial service scope</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Clients Section -->
+    <section class="py-14 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Perfect For</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+            <span class="bg-white px-5 py-3 rounded-full shadow">Local Cafe & Small Shop Owners</span>
+            <span class="bg-white px-5 py-3 rounded-full shadow">Etsy / Shopify Micro Sellers</span>
+            <span class="bg-white px-5 py-3 rounded-full shadow">Solo Creators & Content Makers</span>
+            <span class="bg-white px-5 py-3 rounded-full shadow">Independent Fitness / Wellness Coaches</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 bg-primary text-white">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-5">Ready to offload your admin work?</h2>
+            <p class="mb-8 text-lg opacity-95">No long term contracts, you can cancel anytime. Message me for a free 10 minute chat to discuss your needs.</p>
+            <a href="mailto:ys3425547@gmai.com" class="bg-secondary hover:bg-orange-600 transition-all px-8 py-3 rounded-full font-semibold inline-block text-lg">
+                <i class="fa fa-envelope mr-2"></i> Email Me To Get Started
+            </a>
+        </div>
+    </section>
+
+    <footer class="py-6 text-center text-gray-500 text-sm">
+        <p>Zero-Investment Beginner VA Service | No hidden fees, no experience required to serve you</p>
+    </footer>
+</body>
+</html>
